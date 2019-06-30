@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer-examples",
+  "version": "0.0.1",
+  "author": "kazu22002",
+  "description": "Examples of using Puppeteer",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test-example": "node examples/screenshot.js"
+  },
+  "dependencies": {
+    "puppeteer": "^1.18.0"
+  }
+}
