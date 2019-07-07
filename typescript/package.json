@@ -1,0 +1,27 @@
+{
+  "name": "simple-puppetter-typescript",
+  "version": "0.1.0",
+  "description": "Test Page Input",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "tstest": "npm run build && npm run start"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "package.json"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "*",
+    "puppeteer": "*",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^1.12.4"
+  }
+}

@@ -1,11 +1,10 @@
 # learning_puppeteer
 
-puppeteer simple sample
+puppeteer typescript sample
 
 ## exec
 
-
 ```
 npm install
-npm run test-example
+npm run tstest
 ```
