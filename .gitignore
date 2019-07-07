@@ -1,8 +1,12 @@
 node_modules
+package-lock.json
+
+# mac
 .DS_Store
 
 .idea
 
 # typescript
 dist
+
 
